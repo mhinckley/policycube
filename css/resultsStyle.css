@@ -1,0 +1,92 @@
+.container-fluid {
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	background-color: white;
+	min-height: 500px;	
+	max-height: 1500px;
+	margin-left: -10px;
+
+}
+
+#topRow {
+	height: 0px;
+	width: auto;
+}
+
+#headerRow {
+}
+
+.theBox {
+	width: 120px;
+	height: 120px;
+	background-color: rgba(201, 201, 201, 1);
+	/*border-style: solid;
+	border-color: gray;
+	border-width: 1px;*/ 
+	float: left;
+	text-align: center;
+}
+
+#rightBox {
+	/*background-color: rgba(99, 25, 45, 0.4);*/
+	background-color: rgba(201, 201, 201, 0.15);
+	border-top: 5px solid rgba(201, 201, 201, 0.1);
+	border-bottom: 5px solid rgba(201, 201, 201, 0.1);
+	border-right: 5px solid rgba(201, 201, 201, 0.1);	
+	height: 120px;
+	overflow: hidden;
+}
+
+#searchContainer {
+	float: left;
+	padding-left: 50px;
+	padding-top: 32px;
+}
+
+.style-2 input[type="text"] {
+  width: 370px;
+  padding: 10px;
+  border: solid 5px #c9c9c9;
+  transition: border 0.3s;
+  transition: background-color 0.3s;
+}
+
+.style-2 input[type="text"]:focus,
+.style-2 input[type="text"].focus {
+  border: solid 5px #969696;
+  background-color: rgba(99, 25, 45, 0.05);
+  font-size: 16px;
+}
+
+	
+h2 {
+	font-size: 15px;
+	margin-top: 53px;
+	color: white;
+	font-weight: bolder;
+}
+
+#resultRow {
+	max-height: 1300px;
+}
+
+
+
+#resultArea {
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 50px;
+	text-align: left;
+	border-bottom: 5px solid rgba(201, 201, 201, 0.2);
+	border-right: 5px solid rgba(201, 201, 201, 0.2);
+	border-left: 5px solid rgba(201, 201, 201, 0.2);
+	min-height: 500px;
+	overflow: hidden;
+	font-size: 16px;
+	line-height: .9;
+}
+
+#resultSum {
+	color: #a5a5a5;
+	font-style: italic;
+}

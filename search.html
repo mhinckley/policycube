@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>PolicyCube | Search</title>
+	  <script src="scripts/jQuery.js"></script>
+  	<script src="scripts/capture.js"></script>
+  	<script src="scripts/search.js"></script>
+    <script src="http://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
+  	<script src="scripts/indexPageSearch.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+		<link href='https://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/resultsStyle.css">
+    <link rel="stylesheet" href="css/buttons.css">
+	</head>
+
+	<body onload="justDoIt;"> 
+		<div class="container-fluid">		  
+			<div class="container">		  
+				
+				<div class="row" id="topRow"></div>
+
+				<div class="row" id="headerRow">
+			  	
+				  <div class="theBox"> 
+				  	<h2>PolicyCube</h2> 
+				  </div>
+			  	
+			  	<div id="rightBox">
+
+		  			<div id="searchContainer">
+			        <ul class="input-list style-2 clearfix" style="margin-left: -45px">
+			          <input type="text" placeholder="Search here (this is a close hold)..." style="font-size:16px" onclick="$('#resultList').empty(); $('#resultSum').empty(); this.value='';">
+			        </ul> 
+			  		</div>
+			  	
+
+				  		<div id="buttonContainer">
+				  			<div class="back">
+							    <div class="button_base b07_3d_double_roll" onclick="location.href='https://docs.google.com/forms/d/1HKQn_TEuevcL0RxAY72aElsBWZLQNdbDFmOkHepUDPE/viewform'">
+						        <div>Feedback</div>
+						        <div>Thank you!</div>
+						        <div>Feedback</div>
+						        <div>Thank you!</div>
+							    </div>
+								</div>
+				  		</div>
+
+
+			  	</div>
+
+			  </div>
+			 	
+			 	<div class="row" id="resultRow">
+			 	
+			 		<div id="leftMargin">
+					</div>
+			 		
+			 		<div id="resultArea">
+			 			<p id="resultSum"></p> <br/> <br/>
+		 				<p id="resultList"></p>
+			 		</div>
+			 	
+			 	</div>
+			
+			</div>
+		</div>
+
+	<script src='scripts/algolia.js'></script>
+
+	</body>	
+
+</html>

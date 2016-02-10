@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>PolicyCube</title>
+	  <script src="scripts/jQuery.js"></script>
+  	<script src="scripts/capture.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+		<link href='https://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/style.css">
+	</head>
+
+	<body> 
+		<div class="container">		  
+			<div class="row">	
+		  	<div id="outerBox">
+				  <div class="theBox"> <h2>PolicyCube</h2> </div>
+			  </div>
+		  </div>
+
+		  <div class="row" style="margin-top: 30px">
+        <ul class="input-list style-2 clearfix" style="margin-left: -45px">
+          <input type="text" placeholder="Search me..." id="userInput" onkeydown="if (event.keyCode == 13 && document.getElementById('userInput').value != '') location.href='search.html', capture()">
+        </ul> 
+			</div>
+		 	
+
+		<div class="row" style="margin-top: 25px"> 
+			<div id="circleBox">
+				<div class="circle" id="blueCircle"></div>
+				<div class="circle" id="grayCircle"></div>
+				<div class="circle" id="redCircle"></div>
+			</div>
+		</div>
+
+		<div class="row" style="margin-top: 25px">
+			<p>The first-ever search engine<br/>for policy and think-tank research</p>
+			<a href="https://twitter.com/intent/tweet?text=The first purpose-built search engine for policy and think-tank research, check it out @ &amp;url=http://policycube.io">Tweet this</a>
+		</div>
+
+		</div>
+	</body>	
+
+</html>

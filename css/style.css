@@ -1,0 +1,76 @@
+.container {
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+}
+
+.style-2 input[type="text"] {
+  padding: 10px;
+  border: solid 5px #c9c9c9;
+  transition: border 0.3s;
+  transition: background-color 0.3s;
+  width: 200px;
+}
+
+.style-2 input[type="text"]:focus,
+.style-2 input[type="text"].focus {
+  border: solid 5px #969696;
+  background-color: rgba(99, 25, 45, 0.05);
+}
+
+
+#outerBox {
+	margin-top: 20%;
+	text-align: center;
+}
+
+.theBox {
+	width: 120px;
+	height: 120px;
+	background-color: #c9c9c9;
+	opacity: 1;
+	/*border-style: solid;
+	border-color: gray;
+	border-width: 1px;*/ 
+	display: inline-block;
+	justify-content: center;
+	align-items: center;
+}
+	
+#circleBox {
+	text-align: center;
+}
+
+.circle {
+	margin-top: 0px;
+	border-radius: 50%;
+	width: 13px;
+	height: 13px; 	/* width and height can be anything, as long as they're equal */
+	opacity: 0.7; 
+	display:inline-block;
+
+}
+
+#blueCircle {
+	background-color: rgba(76, 110, 158, 1);
+}
+
+#grayCircle {
+	background-color: rgba(201, 201, 201, 1);
+}
+
+#redCircle {
+	background-color: rgba(99, 25, 45, 1);
+}
+
+
+h2 {
+	font-size: 15px;
+	margin-top: 53px;
+	color: white;
+}
+
+p {
+	color: #2c3e50;
+	opacity: 0.3;
+}
+
